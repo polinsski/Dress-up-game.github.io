@@ -1,0 +1,62 @@
+html,
+body {
+  background: gray;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.game-container {
+  margin: 1rem;
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: 55% 45%;
+  grid-gap: 10px;
+  width: 100%;
+  height: 90%;
+}
+.game-container .body {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-image: url(/img/bg/bg-1.png);
+  background-size: contain;
+}
+.game-container .body img {
+  margin-top: 10rem;
+  margin-left: 20rem;
+}
+.game-container .container-wrapper {
+  background: rgb(227, 227, 227);
+  padding: 3rem;
+}
+.game-container .container-wrapper .container {
+  display: flex;
+  max-height: 90vh;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: start;
+  align-items: auto;
+  align-content: start;
+}
+
+.dress .itm1 {
+  transform: rotate(15deg);
+}
+
+.hat2 img {
+  transform: rotate(35deg);
+}
+
+.bottom1 img {
+  transform: rotate(3deg);
+}
+
+#content {
+  background-image: url("default-bg.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}/*# sourceMappingURL=style.css.map */
